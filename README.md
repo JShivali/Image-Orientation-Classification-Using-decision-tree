@@ -1,4 +1,5 @@
 # Image-Orientation-Classification-Using-decision-tree
+
 ### Implementation:
 * Training phase:
 For training phase, the entire train data is used to train the model and the decisions
@@ -22,24 +23,9 @@ with respect to this feature. If yes then make the same decision as made in trai
 phase, else compare value of data with 128 and decide which feature to consider
 next.
 3. For every image, go on appending the predicted classification to a dictionary.
+
 ### Results:
 Our algorithm was optimal at depth 9 with accuracy of 61.93%
-
-
-### Captured Test Observation:
-1. Depth Vs accuracy:
-I tried to run our algorithm on different depths. We observed that the
-performance increases as depth increased till a certain point and then started
-decreasing.
-
-
-2. Depth Vs time required (for threshold entropy as 0.4):
-
-3. Data size vs accuracy (for depth of 9):
-
-4. Threshold Entropy versus accuracy (for depth of 9):
-Optimal results were found for entropy 0.4.
-
 
 Please refer the report attached to view the results and experimental evaluation
 
