@@ -24,9 +24,10 @@ phase, else compare value of data with 128 and decide which feature to consider
 next.
 3. For every image, go on appending the predicted classification to a dictionary.
 
-### Results:
+### Accuracy:
 Our algorithm was optimal at depth 9 with accuracy of 61.93%
 
+### Report
 Please refer the report attached to view the results and experimental evaluation
 
 
